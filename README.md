@@ -2,4 +2,4 @@
 ### Hero Section with a CTA button
 #### By Jesse Horner
 
-Git pages - 
+Git pages - https://warjumper.github.io/cpnt260-a4/
