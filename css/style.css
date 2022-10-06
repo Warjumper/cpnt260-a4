@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Open+Sans&family=Playfair+Display&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Alkalami', 'Open Sans';
+  font-size: 18px;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.096)), url('https://i.picsum.photos/id/1062/5092/3395.jpg?hmac=o9m7qeU51uOLfXvepXcTrk2ZPiSBJEkiiOp-Qvxja-k') no-repeat center / cover;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+.container .info h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.container .info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.container .info h6 {
+  color: black;
+}
+
+.container .info p {
+  font-size: 1.2rem;
+  max-width: 40%;
+  margin: 0 auto;
+  /* margin-left: 30rem; */
+  margin-right: 0;
+  color: black;
+}
+
+.container .info a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(8, 53, 92);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 0.25em 1em;
+  margin-top: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768px) {
+
+  html {
+    font-size: 14px;
+  }
+
+  .container .info h1 {
+    font-family: 'Courier New', Courier;
+    color: white;
+    /* margin-bottom: 25rem; */
+  }
+
+  .container .info h3 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .container .info p {
+    color: black;
+    text-transform: uppercase;
+  }
+
+  .container .info a {
+    margin-bottom: 11rem;
+  }
+}
